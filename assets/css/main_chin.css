@@ -690,6 +690,11 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
+.footer .logo img {
+  max-height: 36px;
+  margin-right: 8px;
+}
+
 @media (max-width: 991px) {
   .footer .footer-bottom .copyright p {
     text-align: center;
